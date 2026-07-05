@@ -1,0 +1,551 @@
+@font-face {
+  font-family: "BallparkWeiner";
+  src: url("../polices/ballpark.eot");
+  src: url("../polices/ballpark.eot?#iefix") format("embedded-opentype"), url("polices/ballpark.woff") format("woff"),
+    url("../polices/ballpark.ttf") format("truetype"), url("../polices/ballpark.svg#BallparkWeiner") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dayrom";
+  src: url("../polices/dayrom.eot");
+  src: url("../polices/dayrom.ttf") format("truetype"), url("../polices/dayrom.svg#Dayrom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+/* body */
+
+body
+{
+    background: url('../img/background.png') ;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+/* page about.html*/
+#about_section p
+{
+    color: white;
+    text-align: justify;
+}
+
+#about_section
+{
+    background: #ffffff79;
+    margin-top: 135px;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+
+
+
+
+/* page cv.html */
+#cv a
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+/* page skills.html*/
+#sk_title
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 135px;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+#skill
+{
+  display: flex;
+  flex-direction: column;
+  flex-direction: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  gap: 15px;
+}
+
+#skill div
+{
+  width: 75%;
+  height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background: white;
+  border-radius: 6px;
+}
+
+#skill div div
+{
+  align-self: flex-start;
+  margin-left: 2%;
+  font-weight: 400;
+  color: black;
+}
+
+#html
+{
+  width: 85%;
+  height: 4px;
+  background: #00ff03;
+}
+
+#css
+{
+  width: 75%;
+  height: 4px;
+  background: #00ff03;
+}
+
+#javascript
+{
+  width: 68%;
+  height: 4px;
+  background: #00ff03;
+}
+
+#php
+{
+  width: 5%;
+  height: 4px;
+  background: #00ff03;
+}
+
+#react
+{
+  width: 0%;
+  height: 4px;
+  background: #00ff03;
+}
+
+#nextJS
+{
+  width: 0%;
+  height: 4px;
+  background: #00ff03;
+}
+
+#dart
+{
+  width: 0%;
+  height: 4px;
+  background: #00ff03;
+}
+
+#flutter
+{
+  width: 0%;
+  height: 4px;
+  background: #00ff03;
+}
+
+
+
+
+
+#cv img
+{
+  max-width: 75%;
+  border: 4px double red;
+  padding: 3px;
+}
+
+#cv
+{
+  margin-top: 145px;
+  margin-bottom: 30px;
+}
+
+
+
+
+/* header */
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    min-height: 70px;
+    margin-bottom: 6px;
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+    z-index: 1;
+}
+
+ul
+{
+    list-style-type: none;
+    margin-right: 10px;
+    border: 2px solid red;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin-top: 64px;
+}
+
+li
+{
+    display: inline-block;
+}
+
+.li
+{
+    padding-left: 15px;
+}
+
+#name
+{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bolder;
+  color: black;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+#header-div
+{
+  display: none;
+}
+
+header a
+{
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+}
+
+header a:visited
+{
+    color: blue;  
+}
+
+header a:hover
+{
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    color: black;
+    transition: 1000ms;
+}
+
+
+
+
+
+/* bloc de la section principale */
+#section_block
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 135px;
+}
+
+
+
+
+
+
+/* section droite */
+#section_right
+{
+    display: flex;
+    max-width: 45%;
+}
+
+#section_content
+{
+    display: flex;
+    flex-direction: column; 
+    border-radius: 5px;
+    background-color: #ffffffe3;
+    border-bottom: 2px solid red;
+    border-top: 2px solid blue;
+    border-left: 2px solid magenta;
+    border-right: 2px solid #54fb57f6;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#section_right:hover
+{
+    margin-right: 5px;
+    scale: 1.05;
+    transition: 4s;
+}
+
+#profil
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#img1
+{
+    max-width: 96%;
+    margin-top: 1.5%;
+    margin-bottom: 1.3%;
+}
+
+#work
+{
+    color: #a05c28e4;
+}
+
+#section_content h1
+{
+    font-size: 35px;
+    font-family: Dayrom;
+    border-radius: 4px;
+    background: blue;
+    margin: 2px 5px;
+    font-weight: bold;
+    text-align: center;
+    max-height: 100px;
+    min-height: 30px;
+    margin: 0px;
+    color: #000000f1;
+}
+
+#section_content h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: BallparkWeiner;
+    font-weight: normal;
+    margin: 4px 0;
+}
+
+#section_content a img
+{
+    border: 2px solid red;
+    border-radius: 6px;
+    min-width: 50px;
+    max-width: 60px;
+}
+
+/* #section_content a:hover
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    width: 100%;
+} */
+
+#icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+    gap: 3px;
+}
+
+#icons img:hover, a:hover
+{
+  scale: 1.05;
+  transition: 0.6s;
+  border-color: #7c0500;
+  text-decoration: none;
+}
+
+
+
+
+
+/* sectio gauche */
+section_left
+{
+    display: flex;
+    fflex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+aside
+{
+    display: flex;
+    fflex-direction: column;
+    justify-content: space-between;
+    max-width: 30%;
+}
+
+h1
+{
+    color: white;
+    font-size: 60px;
+}
+
+#nom
+{
+    color: blue;
+    margin-top: 70px;
+}
+
+#contact
+{
+    background-color: blue;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px 4px;
+}
+
+aside a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#contact:hover
+{
+    scale: 1.4;
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 6px;
+    transition: 0.35s;
+}
+
+aside h1
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/* ===== CONTACT ===== */
+#contact_section
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 8rem;
+}
+
+.contact_input, textarea
+{
+  width: 95%;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  outline: none;
+  margin-bottom: 16px;
+}
+
+#contact_button
+{
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 2px;
+  background-color: #ff0a00c6;
+  border-radius: 3px;
+  color: white;
+}
+
+#contact_section h2
+{
+    color: white;
+}
+
+.contact_container
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+footer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height:9rem;
+  width: 100%;
+  background-color: rgb(25, 25, 112);
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  margin: 0px;
+  padding: 0px;
+  margin-top: 80px;
+  font-family: Dayrom;
+}
+
+
+/* copyright */
+#fName
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#footer-div2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
